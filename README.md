@@ -1,4 +1,4 @@
-# Hystrix-BaseCommands
+# Hystrix-BaseJDBCCommands
 
 Base Commands to be extended for your use for HTTP, REST and SOAP over Hystrix
 
@@ -14,24 +14,7 @@ Base Commands to be extended for your use for HTTP, REST and SOAP over Hystrix
 /**
 *domainexample
 */
-public class CommandGetOauth2ProtectedPing extends BaseHttpGetHystrixCommand<String> {
 
-    public CommandGetOauth2ProtectedPing(String uri) {
-
-        super(URI.create(uri), "oauth-ping-group");
-    }
-
-
-    @Override
-    protected HttpRequest dealWithRequestBeforeSend(HttpRequest request) {
-        return request.authorization("Bearer " + OAUth2Value.getMyOauth2Token());
-    }
-
-    @Override
-    protected String getTargetPath() {
-        return "/ping";
-    }
-}
 
 //
 //
