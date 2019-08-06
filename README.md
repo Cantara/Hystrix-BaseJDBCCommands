@@ -2,9 +2,7 @@
 
 Base Commands to be extended for your use for HTTP, REST and SOAP over Hystrix
 
-![Build Status](https://jenkins.capraconsulting.no/buildStatus/icon?job=Cantara-Hystrix-BaseCommands) - [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) 
-
-[![Known Vulnerabilities](https://snyk.io/test/github/Cantara/Hystrix-BaseCommands/badge.svg)](https://snyk.io/test/github/Cantara/Hystrix-BaseCommands)
+![Build Status](https://jenkins.quadim.ai/buildStatus/icon?job=Hystrix-BaseJDBCCommands) - [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) - [![Known Vulnerabilities](https://snyk.io/test/github/Cantara/Hystrix-BaseCommands/badge.svg)](https://snyk.io/test/github/Cantara/Hystrix-BaseCommands)
 
 
 ## Example code
