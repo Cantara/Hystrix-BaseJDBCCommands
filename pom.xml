@@ -57,9 +57,9 @@
     </developers>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com/cantara/Hystrix-BaseCommands.git</developerConnection>
-        <connection>scm:git:https://github.com/cantara/Hystrix-BaseCommands.git</connection>
-        <url>https://github.com/cantara/Hystrix-BaseCommands</url>
+        <developerConnection>scm:git:ssh://git@github.com/cantara/Hystrix-BaseJDBCCommands.git</developerConnection>
+        <connection>scm:git:https://github.com/cantara/Hystrix-BaseJDBCCommands</connection>
+        <url>https://github.com/cantara/Hystrix-BaseJDBCCommands</url>
       <tag>HEAD</tag>
   </scm>
 
