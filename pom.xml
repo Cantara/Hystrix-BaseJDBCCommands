@@ -3,7 +3,7 @@
 
     <groupId>no.cantara.base</groupId>
     <artifactId>Hystrix-BaseJDBCCommands</artifactId>
-    <version>0.1.42</version>
+    <version>0.1.43-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Hystrix-BaseJDBCCommands</name>
@@ -60,7 +60,7 @@
         <developerConnection>scm:git:ssh://git@github.com/cantara/Hystrix-BaseJDBCCommands.git</developerConnection>
         <connection>scm:git:https://github.com/cantara/Hystrix-BaseJDBCCommands</connection>
         <url>https://github.com/cantara/Hystrix-BaseJDBCCommands</url>
-      <tag>Hystrix-BaseJDBCCommands-0.1.42</tag>
+      <tag>HEAD</tag>
   </scm>
 
 
