@@ -19,7 +19,7 @@
     <properties>
         <service.name>Hystrix-BaseJDBCCommands</service.name>
         <additionalparam>-Xdoclint:none</additionalparam>
-        <mockito.version>5.14.1</mockito.version>
+        <mockito.version>5.14.2</mockito.version>
     </properties>
 
 
