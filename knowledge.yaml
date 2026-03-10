@@ -1,0 +1,21 @@
+id: Hystrix-BaseJDBCCommands
+name: Hystrix Base JDBC Commands
+version: 0.1.28-SNAPSHOT
+description: |
+  Base command classes for JDBC database operations using Netflix Hystrix
+  circuit breakers. Wraps database queries in Hystrix commands to provide fault
+  isolation, timeouts, and fallback for database-dependent services.
+units:
+  - id: jdbc-commands
+    name: JDBC Commands
+    type: library
+    description: BaseJDBCCommand and query wrappers — extend to isolate database calls with Hystrix.
+    path: src/main/java/no/cantara/hystrix
+  - id: connection-pool
+    name: Connection Pool
+    type: component
+    description: Connection pool integration — manages and recycles JDBC connections within commands.
+  - id: fallback
+    name: Fallback
+    type: component
+    description: Cached fallback for failed queries — returns last-known-good data on circuit open.
