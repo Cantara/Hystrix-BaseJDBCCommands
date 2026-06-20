@@ -1,3 +1,17 @@
+kcp_version: "0.21"
+updated: "2026-06-20"
+language: en
+license: "Apache-2.0"
+indexing: private
+temporal:
+  valid_from: "2026-03-10"
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: "MCowBQYDK2VwAyEAuipgusnqU9vjf3p2yPVLD/DmERT6tBbLOqEETdxAhMU="
+  signature: "https://raw.githubusercontent.com/Cantara/Hystrix-BaseJDBCCommands/master/knowledge.yaml.sig"
+not_for: []
+
 id: Hystrix-BaseJDBCCommands
 name: Hystrix Base JDBC Commands
 version: 0.1.28-SNAPSHOT
@@ -11,11 +25,20 @@ units:
     type: library
     description: BaseJDBCCommand and query wrappers — extend to isolate database calls with Hystrix.
     path: src/main/java/no/cantara/hystrix
+      content_hash:
+        algorithm: sha256
+        value: ""
   - id: connection-pool
     name: Connection Pool
     type: component
     description: Connection pool integration — manages and recycles JDBC connections within commands.
+      content_hash:
+        algorithm: sha256
+        value: ""
   - id: fallback
     name: Fallback
     type: component
     description: Cached fallback for failed queries — returns last-known-good data on circuit open.
+      content_hash:
+        algorithm: sha256
+        value: ""
