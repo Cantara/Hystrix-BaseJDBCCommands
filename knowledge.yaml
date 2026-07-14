@@ -1,4 +1,4 @@
-kcp_version: "0.21"
+kcp_version: "0.26"
 updated: "2026-06-20"
 language: en
 license: "Apache-2.0"
@@ -25,20 +25,19 @@ units:
     type: library
     description: BaseJDBCCommand and query wrappers — extend to isolate database calls with Hystrix.
     path: src/main/java/no/cantara/hystrix
-      content_hash:
-        algorithm: sha256
-        value: ""
   - id: connection-pool
     name: Connection Pool
     type: component
     description: Connection pool integration — manages and recycles JDBC connections within commands.
-      content_hash:
-        algorithm: sha256
-        value: ""
   - id: fallback
     name: Fallback
     type: component
     description: Cached fallback for failed queries — returns last-known-good data on circuit open.
-      content_hash:
-        algorithm: sha256
-        value: ""
+
+# Serving Endpoint Binding (KCP SPEC v0.26 §3.12): authoritative manifest URL
+# and authorized MCP representative. Ignored by pre-0.26 verifiers.
+serving:
+  manifest:
+    - https://raw.githubusercontent.com/Cantara/Hystrix-BaseJDBCCommands/master/knowledge.yaml
+  mcp:
+    - https://mcp.cantara.no/mcp
