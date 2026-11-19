@@ -20,6 +20,8 @@
         <service.name>Hystrix-BaseJDBCCommands</service.name>
         <additionalparam>-Xdoclint:none</additionalparam>
         <mockito.version>5.24.0</mockito.version>
+        <!-- Spring 6 needs Java 17; the Cantara parent pins 1.8 -->
+        <jdk.version>17</jdk.version>
     </properties>
 
 
@@ -88,7 +90,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>5.3.39</version>
+            <version>6.2.19</version>
         </dependency>
 
         <dependency>
